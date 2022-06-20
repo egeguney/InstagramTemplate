@@ -1,0 +1,63 @@
+html{
+    width:414px;
+    height: 896px;
+}
+.header{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:414px;
+    height:49px;
+}
+.instagram{
+    position: absolute;
+    display:inline-block;
+    width: 108px;
+    height: 38px;
+    left:153px;
+    top:45px;
+}
+.messages{
+    position:absolute;
+    display:inline-block;
+    width:23px;
+    height:20.01px;
+    left: 363px;
+    top: 53px;
+}
+.settings{
+    position: absolute;
+    display:inline-block;
+    width:22px;
+    height:24.59px;
+    top:52px;
+    left:35px;
+
+}
+.story1{
+    position: absolute;
+    width: 58.79px;
+    height: 78.39px;
+    left: 35px;
+    top: 107.61px;
+}
+/*.line1{
+    position: absolute;
+    width: 13.41px;
+    height: 0px;
+    left: 62.85px;
+    top: 131.33px;
+
+    border: 3px solid #040303;
+    transform: rotate(90deg);
+}
+.line2{
+    position: absolute;
+    width: 13.41px;
+    height: 0px;
+    left: 71.1px;
+    top: 136.49px;
+
+    border: 3px solid #040303;
+    transform: rotate(-180deg);
+}*/
