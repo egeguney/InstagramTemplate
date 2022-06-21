@@ -41,12 +41,69 @@ html{
     left: 35px;
     top: 107.61px;
 }
+.story2{
+    position: absolute;
+    width: 59.83px;
+    height: 77.36px;
+    left: 107.14px;
+    top: 108.64px;
+
+}
+.story3{
+    position: absolute;
+    width: 59.83px;
+    height: 74.37px;
+    left: 180.41px;
+    top: 108.64px;
+}
+.story4{
+    position: absolute;
+    width: 59.83px;
+    height: 78.12px;
+    left: 254.67px;
+    top: 107.61px;
+}
+.story5{
+    position: absolute;
+    width: 59.83px;
+    height: 58.79px;
+    left: 328.94px;
+    top: 108.64px;
+}
+.story6{
+    position: absolute;
+    width: 59.83px;
+    height: 74.37px;
+    left: 402.17px;
+    top: 108.64px;
+}
+
+.box{
+    box-sizing: border-box;
+    width: 59.83px;
+    height: 58.79px;
+
+    background: url("./Images/Profiles/image.jpg");
+    border-radius: 23px;
+}
 .story-box{
     box-sizing: border-box;
     width: 58.79px;
     height: 58.79px;
-    border: 2px solid #C4C4C4;
+    border: 2px solid;
     border-radius: 23px;
+}
+.pic{
+    position: absolute;
+    width: 49.51px;
+    height: 48.48px;
+    border-radius:18px;
+    background: #FFFFFF;
+    top:50%;
+    margin-top: -24.24px;
+}
+.user{
+    border-color:#C4C4C4;
 }
 .story-text{
     margin:4.13px 0 0 0;
@@ -77,15 +134,3 @@ html{
     height:0px;
     border-radius: 15px;
 }
-/*.horizontal{
-    position: relative;
-    width: 13.41px;
-    height: 0px;
-    left: 22.69px;
-    top: 28.88px;
-    border-radius: 15px;
-    border: 3px solid #040303;
-    transform: rotate(-180deg);
-    display: ;
-    display: ;
-}*/
