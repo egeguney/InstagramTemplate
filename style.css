@@ -1,6 +1,14 @@
 html{
+
+}
+body{
+    position:absolute;
+    left:25%;
     width:414px;
     height: 896px;
+    background: #E5E5E9;
+    outline: 1px dashed black;
+    z-index: 100000;
 }
 .header{
     position:absolute;
@@ -150,10 +158,9 @@ html{
 .user{
     border-color:#C4C4C4;
 }
-.story-text{
-    margin:4.13px 0 0 0;
-    left: 39.13px;
-    top: 170.53px;
+.my-story-text{
+    margin:4.13px auto;
+
     width: 50.54px;
     height: 15.47px;
     font-family: 'Mulish';
@@ -163,11 +170,9 @@ html{
     line-height: 15px;
     text-align: center;
     letter-spacing: -0.3px;
-
-
     color: #000000;
-
 }
+/*
 .vertical{
 
     position:relative;
@@ -178,4 +183,70 @@ html{
     width: 10.41px;
     height:0px;
     border-radius: 15px;
+}*/
+.other-story-text{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.3px;
+}
+.Lina{
+    margin: 61.88px auto;
+    width: 24.76px;
+    height: 15.47px;
+}
+.Ahmed{
+    margin: 61.88px auto;
+    width: 37.14px;
+    height:15.47px;
+}
+.Jenny{
+    margin: 61.88px auto;
+    width: 31.71px;
+    height:15.47px;
+}
+.Johnny{
+    margin: 61.88px auto;
+    width: 40.71px;
+    height:15.47px;
+}
+.post1{
+    position: absolute;
+    width: 353px;
+    height: 461px;
+    left: 25px;
+    top: 210px;
+
+    background: #FFFFFF;
+    border-radius: 33px;
+}
+.post2{
+    position: absolute;
+    width: 359px;
+    height: 434px;
+    left: 28px;
+    top: 693px;
+
+    background: #FFFFFF;
+    border-radius: 33px;
+}
+.selectors{
+    position: absolute;
+    width: 414px;
+    height: 114px;
+    left: 0px;
+    top: 782px;
+    background: #FFFFFF;
+    border-radius: 40px 40px 0px 0px;
+}
+.bottom{
+    position: absolute;
+    height: 37px;
+    left: 0px;
+    right: 0px;
+    bottom: -1px;
 }
