@@ -1,6 +1,4 @@
-html{
 
-}
 body{
     position:absolute;
     left:25%;
@@ -11,158 +9,48 @@ body{
     z-index: 100000;
 }
 .header{
-    position:absolute;
-    top:0px;
-    left:0px;
-    width:414px;
-    height:49px;
-}
-.instagram{
-    position: absolute;
-    display:inline-block;
-    width: 108px;
-    height: 38px;
-    left:153px;
-    top:45px;
-}
-.messages{
-    position:absolute;
-    display:inline-block;
-    width:23px;
-    height:20.01px;
-    left: 363px;
-    top: 53px;
+    margin-top:45px;
+    margin-left:35px;
+    width:351px;
+    height:38px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
 }
 .settings{
-    position: absolute;
-    display:inline-block;
     width:22px;
     height:24.59px;
-    top:52px;
-    left:35px;
+}
+.instagram{
+    width:108px;
+    height:38px;
+}
+.messages{
+    width: 23px;
+    height: 20.01px;
+}
 
+.stories{
+    margin-top: 24.61px;
+    width:414px;
+    height:78.39px;
+    display:flex;
+
+    overflow: hidden;
 }
 .story1{
-    position: absolute;
-    width: 58.79px;
-    height: 78.39px;
-    left: 35px;
-    top: 107.61px;
-}
-/*
-.story2{
-    position: absolute;
-    width: 59.83px;
-    height: 77.36px;
-    left: 107.14px;
-    top: 108.64px;
-
-}
-.story3{
-    position: absolute;
-    width: 59.83px;
-    height: 74.37px;
-    left: 180.41px;
-    top: 108.64px;
-}
-.story4{
-    position: absolute;
-    width: 59.83px;
-    height: 78.12px;
-    left: 254.67px;
-    top: 107.61px;
-}
-.story5{
-    position: absolute;
-    width: 59.83px;
-    height: 58.79px;
-    left: 328.94px;
-    top: 108.64px;
-}
-.story6{
-    position: absolute;
-    width: 59.83px;
-    height: 74.37px;
-    left: 402.17px;
-    top: 108.64px;
-}
-*/
-.second{
-    position:absolute;
-    left: 107.14px;
-    top: 108.64px;
-}
-.third{
-    position: absolute;
-    width: 59.83px;
-    height: 58.79px;
-    left: 180.41px;
-    top: 108.64px;
-}
-.fourth{
-    position: absolute;
-    width: 59.83px;
-    height: 58.79px;
-    left: 254.67px;
-    top: 107.61px;
-}
-.fifth{
-    position: absolute;
-    width: 59.83px;
-    height: 58.79px;
-    left: 328.94px;
-    top: 108.64px;
-}
-.sixth{
-    position: absolute;
-    left: 402.17px;
-    top: 108.64px;
+    margin-left: 35px;
 }
 .story-box{
     box-sizing: border-box;
     width: 58.79px;
     height: 58.79px;
-    border: 2px solid;
+    border: 2px solid #C4C4C4;
     border-radius: 23px;
 }
-.box{
-    box-sizing: border-box;
-    width: 59.83px;
-    height: 58.79px;
-    background: url("./Images/Profiles/image.jpg");
-    border-radius: 23px;
 
-}
-.pic{
-    /*box-sizing: border-box;*/
-    position: absolute;
-    margin:2.58px;
-    width: 49.51px;
-    height: 48.48px;
-    border-radius:23px;
-    z-index: 2;
-    background: #FFFFFF;
-   border: 2.58px #FFFFFF solid;
-}
-/*.white-border{
-
-
-    position: absolute;
-    margin:2.58px;
-    width: 54.67px;
-    height: 53.64px;
-    border-radius:18px;
-    z-index: 1;
-    background: white;
-}*/
-.user{
-    border-color:#C4C4C4;
-}
-.my-story-text{
-    margin:4.13px auto;
-
-    width: 50.54px;
-    height: 15.47px;
+.story-text{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -172,81 +60,60 @@ body{
     letter-spacing: -0.3px;
     color: #000000;
 }
-/*
-.vertical{
+.my{
+    margin:4.13px auto;
+}
+.other{
+    margin:3.16px auto;
+}
+.box{
+    box-sizing: border-box;
+    width: 59.83px;
+    height: 58.79px;
+    border-radius: 23px;
+    background: url("./Images/Profiles/image.jpg");
+}
+.story2{
+    margin-left: 13.35px;
+}
+.story3{
+    margin-left: 13.44px;
+}
+.story4{
+    margin-left: 14.44px;
+}
+.story5{
+    margin-left: 14.44px;
+}
+.story6{
+    margin-left: 13.41px;
+}
+.pic{
+    margin: 2.58px 2.58px 2.58px 2.58px;
+    width: 49.51px;
+    height: 48.48px;
+    border-radius: 18px;
+    border: white 2.16px solid;
+    background: white;
+}
+.sixth{
+    overflow: hidden;
+}
 
-    position:relative;
-    border: 3px solid #040303;
-    transform: rotate(90deg);
-    top:23.72px;
-    left:20.85px;
-    width: 10.41px;
-    height:0px;
-    border-radius: 15px;
-}*/
-.other-story-text{
-
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: center;
-    letter-spacing: -0.3px;
+.posts{
+    margin-top:27px;
+    margin-left:28px;
+    width:359px;
+    height:686px;
+    overflow:hidden;
 }
-.Lina{
-    margin: 61.88px auto;
-    width: 24.76px;
-    height: 15.47px;
-}
-.Ahmed{
-    margin: 61.88px auto;
-    width: 37.14px;
-    height:15.47px;
-}
-.Jenny{
-    margin: 61.88px auto;
-    width: 31.71px;
-    height:15.47px;
-}
-.Johnny{
-    margin: 61.88px auto;
-    width: 40.71px;
-    height:15.47px;
-}
-.post1{
-    position: absolute;
-    width: 353px;
-    height: 461px;
-    left: 25px;
-    top: 210px;
-
+.post{
+    width:353px;
+    height:461px;
     background: #FFFFFF;
     border-radius: 33px;
 }
-.post2{
-    position: absolute;
-    width: 359px;
-    height: 434px;
-    left: 28px;
-    top: 693px;
+.khokha{
+    margin-top:22px;
+}
 
-    background: #FFFFFF;
-    border-radius: 33px;
-}
-.selectors{
-    position: absolute;
-    width: 414px;
-    height: 114px;
-    left: 0px;
-    top: 782px;
-    background: #FFFFFF;
-    border-radius: 40px 40px 0px 0px;
-}
-.bottom{
-    position: absolute;
-    height: 37px;
-    left: 0px;
-    right: 0px;
-    bottom: -1px;
-}
