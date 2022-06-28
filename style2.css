@@ -122,13 +122,14 @@ div.picture3{
 
 
 .selector-container{
-    position: absolute;
+    position: fixed;
     width: 414px;
-    height:114px;
+    height: 114px;
     background: #FFFFFF;
     border-radius: 40px 40px 0px 0px;
-    left: 0px;
-    top: 782px;
+    left:calc(25% - 8);
+    top: 774px;
+    z-index: 100;
 }
 .selectors{
     height:77px;

@@ -3,9 +3,10 @@ body{
     position:absolute;
     left:25%;
     width:414px;
-    height: 896px;
+
     background: #E5E5E9;
     outline: 1px dashed black;
+
     z-index: 100000;
 }
 .header{
@@ -36,8 +37,8 @@ body{
     width:414px;
     height:78.39px;
     display:flex;
-
-    overflow: hidden;
+    white-space:nowrap;
+    overflow: auto;
 }
 .story1{
     margin-left: 35px;
@@ -95,6 +96,12 @@ body{
 .story6{
     margin-left: 13.41px;
 }
+.story7{
+    margin-left: 13.41px;
+}
+.story8{
+    margin-left: 13.41px;
+}
 .pic{
     margin: 3px 3px 3px 3px;
     width: 49.51px;
@@ -104,15 +111,12 @@ body{
     background: white border-box;
     object-fit:cover;
 }
-.sixth{
-    overflow: hidden;
-}
 
 .posts{
     margin-top:27px;
     margin-left:28px;
     width:359px;
-    height:686px;
+    height:1050px;
     overflow:hidden;
 }
 .post{
@@ -199,9 +203,11 @@ body{
 .like-box{
     width:73px;
     height:33px;
-    background: #EAEEF1;
     border-radius: 14px;
     display:flex;
+}
+.like-box:hover{
+    background: #EAEEF1;
 }
 .like{
     margin-top:10.47px;
@@ -230,7 +236,11 @@ body{
     display:flex;
     align-items:center;
 }
+.comment-box:hover{
+    background: #EAEEF1;
+}
 .comment{
+    margin-left:5px;
     width:19.18px;
     height:18.62px;
 }
@@ -248,13 +258,28 @@ body{
     height:20px;
 }
 .share-box{
-
-    width: 23.13px;
-    height: 23.13px;
-    margin-right:130px;
+    border-radius: 8px;
+    margin-top:3.3px;
+    width: 45.13px;
+    height: 25.13px;
+    margin-right:125px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
-.share{
-    margin-top:7.3px;
+.share-box:hover{
+    background: #EAEEF1;
+}
+.save-box{
+    width: 45.13px;
+    height: 25.13px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:8px;
+}
+.save-box:hover{
+    background: #EAEEF1;
 }
 .bottom-visual{
     display:flex;
@@ -305,6 +330,9 @@ body{
     background: #EAEEF1;
     border-radius: 16.5px;
 }
+.more-box:hover{
+    background: #939596;
+}
 .more{
     margin: 5px auto;
     font-family: 'Mulish';
@@ -319,13 +347,14 @@ body{
     color: #040303;
 }
 .selector-container{
-    position: absolute;
+    position: fixed;
     width: 414px;
-    height:114px;
+    height: 114px;
     background: #FFFFFF;
     border-radius: 40px 40px 0px 0px;
-    left: 0px;
-    top: 782px;
+    left:calc(25% - 8);
+    top: 774px;
+    z-index: 100;
 }
 .selectors{
     height:77px;
